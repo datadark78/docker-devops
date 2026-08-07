@@ -1,3 +1,28 @@
+# 🚀 CI/CD AUTOMATED DEPLOYMENT
+
+## Status
+✅ **Live on AWS EC2**
+- URL: http://TU_IP:8001
+- Nginx + MySQL + Redis running 24/7
+- Auto-deployed via GitHub Actions
+
+## Pipeline
+
+git push → GitHub Actions
+├─ Build Docker image
+├─ Push to Docker Hub
+└─ Deploy to AWS (automatic)
+
+
+## Technologies
+- Linux (Ubuntu 24.04)
+- Bash scripting
+- Docker & Docker Compose
+- Git & GitHub
+- GitHub Actions (CI/CD)
+- AWS EC2
+- MySQL, Redis, Nginx
+
 # 🐳 Docker Compose: Multi-container DevOps Stack
 
 **Sistema profesional de containerización con Nginx, MySQL y Redis orquestados con Docker Compose.**
